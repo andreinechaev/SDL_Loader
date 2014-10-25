@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7F5A6D3A19F94ABF0009203C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F5A6D3919F94ABF0009203C /* main.cpp */; };
+		7F5A6D4119F94AD80009203C /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5A6D4019F94AD80009203C /* SDL2.framework */; };
+		7F5A6D4419F94BB80009203C /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F5A6D4219F94BB80009203C /* game.cpp */; };
+		7F5A6D4719F971B80009203C /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5A6D4619F971B80009203C /* SDL2_image.framework */; };
+		7F5A6D5419F9A6E40009203C /* texture_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F5A6D5219F9A6E40009203C /* texture_manager.cpp */; };
+		7F71BDEB19FAB8CA00AADD1B /* enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71BDE919FAB8CA00AADD1B /* enemy.cpp */; };
+		7F71BDF119FACFA700AADD1B /* loader_params.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71BDEF19FACFA700AADD1B /* loader_params.cpp */; };
+		7F71BDF419FAD46300AADD1B /* SDLGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71BDF219FAD46300AADD1B /* SDLGameObject.cpp */; };
+		7F71BDF819FB2FC700AADD1B /* vector2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71BDF619FB2FC700AADD1B /* vector2d.cpp */; };
+		7F71BDFB19FB3EA400AADD1B /* input_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F71BDF919FB3EA400AADD1B /* input_handler.cpp */; };
+		7F8A48BB19F9FA73006B7272 /* game_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A48B919F9FA73006B7272 /* game_object.cpp */; };
+		7F8A48BE19F9FB32006B7272 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A48BC19F9FB32006B7272 /* player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		7F5A6D3419F94ABF0009203C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			buildActionMask = 8;
+			dstPath = "~/Documents/XCode/SDLGame";
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -25,6 +36,28 @@
 /* Begin PBXFileReference section */
 		7F5A6D3619F94ABF0009203C /* SDLGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5A6D3919F94ABF0009203C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F5A6D4019F94AD80009203C /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		7F5A6D4219F94BB80009203C /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		7F5A6D4319F94BB80009203C /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		7F5A6D4619F971B80009203C /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		7F5A6D5119F98F050009203C /* arc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arc2.png; sourceTree = "<group>"; };
+		7F5A6D5219F9A6E40009203C /* texture_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture_manager.cpp; sourceTree = "<group>"; };
+		7F5A6D5319F9A6E40009203C /* texture_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture_manager.h; sourceTree = "<group>"; };
+		7F71BDE919FAB8CA00AADD1B /* enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemy.cpp; sourceTree = "<group>"; };
+		7F71BDEA19FAB8CA00AADD1B /* enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enemy.h; sourceTree = "<group>"; };
+		7F71BDEF19FACFA700AADD1B /* loader_params.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loader_params.cpp; sourceTree = "<group>"; };
+		7F71BDF019FACFA700AADD1B /* loader_params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loader_params.h; sourceTree = "<group>"; };
+		7F71BDF219FAD46300AADD1B /* SDLGameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDLGameObject.cpp; sourceTree = "<group>"; };
+		7F71BDF319FAD46300AADD1B /* SDLGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLGameObject.h; sourceTree = "<group>"; };
+		7F71BDF519FAEA1000AADD1B /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
+		7F71BDF619FB2FC700AADD1B /* vector2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector2d.cpp; sourceTree = "<group>"; };
+		7F71BDF719FB2FC700AADD1B /* vector2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector2d.h; sourceTree = "<group>"; };
+		7F71BDF919FB3EA400AADD1B /* input_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = input_handler.cpp; sourceTree = "<group>"; };
+		7F71BDFA19FB3EA400AADD1B /* input_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input_handler.h; sourceTree = "<group>"; };
+		7F8A48B919F9FA73006B7272 /* game_object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game_object.cpp; sourceTree = "<group>"; };
+		7F8A48BA19F9FA73006B7272 /* game_object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_object.h; sourceTree = "<group>"; };
+		7F8A48BC19F9FB32006B7272 /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		7F8A48BD19F9FB32006B7272 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F5A6D4719F971B80009203C /* SDL2_image.framework in Frameworks */,
+				7F5A6D4119F94AD80009203C /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +76,8 @@
 		7F5A6D2D19F94ABF0009203C = {
 			isa = PBXGroup;
 			children = (
+				7F5A6D4619F971B80009203C /* SDL2_image.framework */,
+				7F5A6D4019F94AD80009203C /* SDL2.framework */,
 				7F5A6D3819F94ABF0009203C /* SDLGame */,
 				7F5A6D3719F94ABF0009203C /* Products */,
 			);
@@ -57,7 +94,27 @@
 		7F5A6D3819F94ABF0009203C /* SDLGame */ = {
 			isa = PBXGroup;
 			children = (
+				7F5A6D5119F98F050009203C /* arc2.png */,
+				7F71BDF519FAEA1000AADD1B /* space.jpg */,
 				7F5A6D3919F94ABF0009203C /* main.cpp */,
+				7F5A6D4319F94BB80009203C /* game.h */,
+				7F5A6D4219F94BB80009203C /* game.cpp */,
+				7F8A48BA19F9FA73006B7272 /* game_object.h */,
+				7F8A48B919F9FA73006B7272 /* game_object.cpp */,
+				7F71BDF319FAD46300AADD1B /* SDLGameObject.h */,
+				7F71BDF219FAD46300AADD1B /* SDLGameObject.cpp */,
+				7F71BDF619FB2FC700AADD1B /* vector2d.cpp */,
+				7F71BDF719FB2FC700AADD1B /* vector2d.h */,
+				7F8A48BD19F9FB32006B7272 /* player.h */,
+				7F8A48BC19F9FB32006B7272 /* player.cpp */,
+				7F71BDEA19FAB8CA00AADD1B /* enemy.h */,
+				7F71BDE919FAB8CA00AADD1B /* enemy.cpp */,
+				7F5A6D5319F9A6E40009203C /* texture_manager.h */,
+				7F5A6D5219F9A6E40009203C /* texture_manager.cpp */,
+				7F71BDF019FACFA700AADD1B /* loader_params.h */,
+				7F71BDEF19FACFA700AADD1B /* loader_params.cpp */,
+				7F71BDFA19FB3EA400AADD1B /* input_handler.h */,
+				7F71BDF919FB3EA400AADD1B /* input_handler.cpp */,
 			);
 			path = SDLGame;
 			sourceTree = "<group>";
@@ -118,7 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8A48BB19F9FA73006B7272 /* game_object.cpp in Sources */,
+				7F71BDFB19FB3EA400AADD1B /* input_handler.cpp in Sources */,
+				7F8A48BE19F9FB32006B7272 /* player.cpp in Sources */,
+				7F71BDEB19FAB8CA00AADD1B /* enemy.cpp in Sources */,
+				7F71BDF819FB2FC700AADD1B /* vector2d.cpp in Sources */,
 				7F5A6D3A19F94ABF0009203C /* main.cpp in Sources */,
+				7F71BDF119FACFA700AADD1B /* loader_params.cpp in Sources */,
+				7F5A6D5419F9A6E40009203C /* texture_manager.cpp in Sources */,
+				7F71BDF419FAD46300AADD1B /* SDLGameObject.cpp in Sources */,
+				7F5A6D4419F94BB80009203C /* game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +194,7 @@
 		7F5A6D3B19F94ABF0009203C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -168,7 +234,7 @@
 		7F5A6D3C19F94ABF0009203C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -202,6 +268,11 @@
 		7F5A6D3E19F94ABF0009203C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +280,11 @@
 		7F5A6D3F19F94ABF0009203C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +308,7 @@
 				7F5A6D3F19F94ABF0009203C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
